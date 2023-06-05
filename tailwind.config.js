@@ -23,6 +23,17 @@ module.exports = {
         subtitle: '#C4D4E3',
         title: '#E7EDF4',
         blue: '#3294F8'
+      },
+
+      animation: {
+        slideIn: 'slide 0.5s ease-in'
+      },
+
+      keyframes: {
+        slide: { 
+            '0%': { opacity: 0, marginLeft: '-50px' },
+            '100%': { opacity: 1 }
+         }
       }
     },
   },
