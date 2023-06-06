@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Timeline from '@/components/Timeline'
 import TimelineContainer from '@/components/TimelineContainer'
 import AboutMe from '@/components/profile/AboutMe'
