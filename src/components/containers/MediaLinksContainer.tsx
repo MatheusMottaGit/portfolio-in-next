@@ -4,7 +4,7 @@ import { Children } from '@/types/types'
 
 const MediaLinksContainer = ({ children }: Children) => {
   return (
-    <div className='w-full bg-post h-[180px] rounded-xl'>
+    <div className='w-full bg-post h-fit rounded-xl'>
       {children}
     </div>
   )
