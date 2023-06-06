@@ -1,15 +1,19 @@
 import React from 'react'
 import Timeline from '@/components/Timeline'
+import TimelineContainer from '@/components/TimelineContainer'
+import AboutMe from '@/components/profile/AboutMe'
 
 const About = () => {
   return (
-    <section className='relative w-3/5 h-fit mt-12 rounded-lg animate-slideIn'>
-      <span className='absolute bg-profile/60 h-full p-[1px] rounded-full'></span>
+    <>
+      <AboutMe />
 
-      <div className='relative flex flex-col gap-4 left-4 pr-5'>
-        <Timeline />
-      </div>
-    </section>
+      <TimelineContainer>
+        <div className='relative flex flex-col gap-4 left-4 pr-5'>
+          <Timeline />
+        </div>
+      </TimelineContainer> 
+    </>   
   )
 }
 
