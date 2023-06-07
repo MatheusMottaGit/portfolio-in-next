@@ -50,12 +50,21 @@ const Timeline = () => {
           <h1 className='text-title/80 font-bold text-xl max-[777px]:text-lg'>Experiências profissionais</h1>
         </div>
         
-        <div className='text-text/50 text-sm text-justify p-3'>
-         - ( 03 / 2023 - atualmente ): Em março desse ano recebi minha primeira oportunidade de trabalho, atuando
-         como freelancer. Nela, fui contatado para contribuir na criação de um aplicativo de celular para 
-         a apresentação de um trabalho para o curso de medicina da UNIFAA - Centro Universitário de Valença. Com isso, 
-         fui introzido aos conceitos de criação de banco de dados, utilizando NodeJS, e me aprofundei ainda mais no "front-end", 
-         agora no universo mobile, utilizando React Native.
+        <div className='text-text/50 text-sm text-justify p-3 flex flex-col gap-8'>
+          <div>
+            <span className='font-bold text-text/75' > - ( 03 / 2023  - atualmente)</span>: 
+            Em março desse ano recebi minha primeira oportunidade de trabalho, atuando
+            como freelancer. Nela, fui contatado para contribuir na criação de um aplicativo de celular para 
+            a apresentação de um trabalho para o curso de medicina da UNIFAA - Centro Universitário de Valença. Com isso, 
+            fui introzido aos conceitos de criação de banco de dados, utilizando NodeJS, e me aprofundei ainda mais no "front-end", 
+            agora no universo mobile, utilizando React Native.
+          </div>
+
+          <div>
+            <span className='font-bold text-text/75' > - ( 05/2023  - atualmente)</span>: 
+            Alguns meses depois, recebi a proposta de participar da criação de uma página web corporativa,
+            relacionada à empresa JBF - Usinagem e Fabricação LTDA. 
+          </div>
         </div>
       </TimelineCard>
     </>
